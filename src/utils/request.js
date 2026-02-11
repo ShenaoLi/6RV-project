@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // 创建 axios 实例
 const request = axios.create({
-  baseURL: 'http://[2001:da8:ff:212::19:1]/v1',
+  baseURL: 'https://c8d28c9edf94bcee-219-243-212-106.serveousercontent.com/v1',
   timeout: 15000,
   headers: {
     'Content-Type': 'application/json',
